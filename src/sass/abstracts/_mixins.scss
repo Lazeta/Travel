@@ -3,3 +3,11 @@
   line-height: $height;
   weight: $weight;
 }
+
+@mixin media-mobile {
+  @media (max-width: 414px) {
+    @include font($size: 1.6rem, $height: 2.6rem, $weight: normal){
+      
+    }
+  }
+}
