@@ -1,8 +1,8 @@
 * {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 html {
@@ -11,38 +11,50 @@ html {
   line-height: 10px;
 }
 body {
-  @extend %font-prim;
-  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+    @include font();
+  //   @extend %font-prim;
 }
 h1 {
-  @extend %font-add;
-  @include font($height: 5.4rem, $size: 4.4rem);
-  @include media-mobile {
-    @include font($height: 4.2rem, $size: 3.2rem);
-  }
+    @include font(8rem, 9.6rem, Bold);
+  //   @extend %font-add;
+  //   @include media-mobile {
+  //     @include font($height: 4.2rem, $size: 3.2rem);
+  //   }
 }
 
 h2 {
-  @include font($size: 3.4rem, $height: 4.6rem);
-  @include media-mobile {
-    @include font($height: 3.3rem, $size: 2.4rem);
-  }
+  @include font(3.5rem, 4.2rem);
+  //   @include media-mobile {
+  //     @include font($height: 3.3rem, $size: 2.4rem);
+  //   }
 }
 
 h3 {
-  @include font($size: 2.4rem, $height: 3.4rem);
-  @include media-mobile {
-    @include font($height: 3.1rem, $size: 2.1rem);
-  }
+    @include font(4rem, 5.3rem, Medium);
+  //   @include media-mobile {
+  //     @include font($height: 3.1rem, $size: 2.1rem);
+  //   }
 }
 
 h4 {
-  @include font($size: 2.2rem, $height: 3rem, $weight: 600);
-  @include media-tablet {
-    @include font($height: 3rem, $size: 2rem);
-  }
+  @include font(3.2rem, 4.2rem, Medium);
+  //   @include media-tablet {
+  //     @include font($height: 3rem, $size: 2rem);
+  //   }
 }
 
 h5 {
-  @include font($size: 1.6rem, $height: 2.6rem);
+    @include font(2.4rem, 3.2rem, Medium);
+}
+
+h6 {
+    @include font(3.2rem, 3.9rem, Bold);
+}
+
+p {
+    @include font(2rem, 2.4rem);
+}
+
+li {
+    @include font(1.6rem, 2.1rem, Medium);
 }

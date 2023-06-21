@@ -1,3 +1,66 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  font-style: normal;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  weight: normal;
+}
+
+h1 {
+  font-size: 8rem;
+  line-height: 9.6rem;
+  weight: Bold;
+}
+
+h2 {
+  font-size: 3.5rem;
+  line-height: 4.2rem;
+  weight: normal;
+}
+
+h3 {
+  font-size: 4rem;
+  line-height: 5.3rem;
+  weight: Medium;
+}
+
+h4 {
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  weight: Medium;
+}
+
+h5 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  weight: Medium;
+}
+
+h6 {
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  weight: Bold;
+}
+
 p {
-  font-family: "Aleo", serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  weight: normal;
+}
+
+li {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  weight: Medium;
 }/*# sourceMappingURL=style.css.map */
