@@ -16,11 +16,25 @@ body {
   line-height: 2.6rem;
   weight: normal;
 }
+@media (max-width: 390px) {
+  body {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    weight: normal;
+  }
+}
 
 h1 {
   font-size: 8rem;
   line-height: 9.6rem;
   weight: Bold;
+}
+@media (max-width: 390px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+    weight: normal;
+  }
 }
 
 h2 {
@@ -28,11 +42,25 @@ h2 {
   line-height: 4.2rem;
   weight: normal;
 }
+@media (max-width: 390px) {
+  h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    weight: normal;
+  }
+}
 
 h3 {
   font-size: 4rem;
   line-height: 5.3rem;
   weight: Medium;
+}
+@media (max-width: 390px) {
+  h3 {
+    font-size: 3rem;
+    line-height: 4rem;
+    weight: normal;
+  }
 }
 
 h4 {
@@ -40,11 +68,25 @@ h4 {
   line-height: 4.2rem;
   weight: Medium;
 }
+@media (max-width: 390px) {
+  h4 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    weight: normal;
+  }
+}
 
 h5 {
   font-size: 2.4rem;
   line-height: 3.2rem;
   weight: Medium;
+}
+@media (max-width: 390px) {
+  h5 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    weight: normal;
+  }
 }
 
 h6 {
@@ -52,15 +94,36 @@ h6 {
   line-height: 3.9rem;
   weight: Bold;
 }
+@media (max-width: 390px) {
+  h6 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    weight: normal;
+  }
+}
 
 p {
   font-size: 2rem;
   line-height: 2.4rem;
   weight: normal;
 }
+@media (max-width: 390px) {
+  p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    weight: normal;
+  }
+}
 
 li {
   font-size: 1.6rem;
   line-height: 2.1rem;
   weight: Medium;
+}
+@media (max-width: 390px) {
+  li {
+    font-size: 1rem;
+    line-height: 2rem;
+    weight: normal;
+  }
 }/*# sourceMappingURL=style.css.map */

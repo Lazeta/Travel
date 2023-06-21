@@ -1,0 +1,21 @@
+%font-magra {
+    font-family: 'Magra', sans-serif;
+    color: $color-primary;
+}
+
+%font-aleo {
+    font-family: 'Aleo', serif;
+    color: $color-primary;
+}
+
+%font-red-hat-text {
+    font-family: 'Red Hat Text', sans-serif;
+    color: $color-primary;
+}
+
+%flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}

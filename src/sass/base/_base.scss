@@ -12,49 +12,62 @@ html {
 }
 body {
     @include font();
-  //   @extend %font-prim;
+    @include media-mobile {
+      @include font();
+    }
 }
 h1 {
     @include font(8rem, 9.6rem, Bold);
-  //   @extend %font-add;
-  //   @include media-mobile {
-  //     @include font($height: 4.2rem, $size: 3.2rem);
-  //   }
+    @include media-mobile {
+      @include font(4rem, 5rem);
+    }
 }
 
 h2 {
   @include font(3.5rem, 4.2rem);
-  //   @include media-mobile {
-  //     @include font($height: 3.3rem, $size: 2.4rem);
-  //   }
+  @include media-mobile {
+    @include font(3rem, 3rem);
+  }
 }
 
 h3 {
     @include font(4rem, 5.3rem, Medium);
-  //   @include media-mobile {
-  //     @include font($height: 3.1rem, $size: 2.1rem);
-  //   }
+    @include media-mobile {
+      @include font(3rem, 4rem);
+    }
 }
 
 h4 {
   @include font(3.2rem, 4.2rem, Medium);
-  //   @include media-tablet {
-  //     @include font($height: 3rem, $size: 2rem);
-  //   }
+  @include media-mobile {
+    @include font(2.2rem, 3rem);
+  }
 }
 
 h5 {
     @include font(2.4rem, 3.2rem, Medium);
+    @include media-mobile {
+      @include font(2rem, 2.5rem);
+    }
 }
 
 h6 {
     @include font(3.2rem, 3.9rem, Bold);
+    @include media-mobile {
+      @include font(2.5rem, 3rem);
+    }
 }
 
 p {
     @include font(2rem, 2.4rem);
+    @include media-mobile {
+      @include font(1.6rem, 2rem);
+    }
 }
 
 li {
     @include font(1.6rem, 2.1rem, Medium);
+    @include media-mobile {
+      @include font(1rem, 2rem);
+    }
 }
