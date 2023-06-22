@@ -13,43 +13,43 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="logo">
-          <img
-            src="/src/assets/svg/travel-logo-icons.svg"
-            alt="main svg logo"
-          />
-          <h6 class="logo__title"></h6>
-        </div>
-        <nav class="navigation">
-          <ul class="navigation__list">
-            <li class="nav__item"></li>
-            <li class="nav__item"></li>
-            <li class="nav__item"></li>
-            <li class="nav__item"></li>
-          </ul>
-        </nav>
-        <button class="login"></button>
-
-        <div class="burger-menu">
-          <div class="burger">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="header__wrapper">
+          <div class="logo">
+            <img
+              src="/src/assets/svg/travel-logo-icons.svg"
+              alt="main svg logo"
+            />
+            <h6 class="logo__title">Travel Portal</h6>
           </div>
-          <nav>
-            <ul>
+          <nav class="navigation">
+            <ul class="navigation__list">
               <li><a href="#">How It Works</a></li>
               <li><a href="#">Plan Your Trip</a></li>
               <li><a href="#">Destinations</a></li>
               <li><a href="#">Travel Stories</a></li>
-              <li><a href="#">Account</a></li>
-              <li><a href="#">Social Media</a></li>
             </ul>
           </nav>
-        </div>
-      </header>
+          <button class="login"><li>Login</li></button>
 
-      <main class="main">
+          <div class="burger-menu">
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Plan Your Trip</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Travel Stories</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Social Media</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
         <section class="preview">
           <div class="plan-your-trip">
             <h1 class="plan-your-trip__title">
@@ -67,7 +67,9 @@
             </div>
           </div>
         </section>
+      </header>
 
+      <main class="main">
         <section class="three-steps">
           <h3 class="three-steps__title">3 STEPS TO THE PERFECT TRIP</h3>
 
@@ -211,36 +213,38 @@
         </section>
       </main>
 
-      <footer class="footer">
-        <div class="copyright">
-          <li>All Rights Reserved © Travel Portal</li>
-        </div>
-        <nav class="social__media">
-          <ul>
-            <li>
-              <a href="#"
-                ><img
-                  src="/src/assets/svg/akar-icons_instagram-fill.svg"
-                  alt="instagram svg icon"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  src="/src/assets/svg/akar-icons_video.svg"
-                  alt="video svg icon"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  src="/src/assets/svg/akar-icons_twitter-fill.svg"
-                  alt="twitter svg icon"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </footer>
+      <div class="footer__wrapper">
+        <footer class="footer">
+          <div class="copyright">
+            <li>All Rights Reserved © Travel Portal</li>
+          </div>
+          <nav class="social__media">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img
+                    src="/src/assets/svg/akar-icons_instagram-fill.svg"
+                    alt="instagram svg icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="/src/assets/svg/akar-icons_video.svg"
+                    alt="video svg icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="/src/assets/svg/akar-icons_twitter-fill.svg"
+                    alt="twitter svg icon"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </footer>
+      </div>
     </div>
 
     <script src="/src/scripts/script.js"></script>

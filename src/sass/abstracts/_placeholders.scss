@@ -13,9 +13,25 @@
     color: $color-primary;
 }
 
-%flex {
+%flex-row-center {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
+}
+
+%inline-flex-row-between {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%inline-flex-row-around {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: center;
 }

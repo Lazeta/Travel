@@ -1,0 +1,12 @@
+.navigation {
+    margin-right: -15px;
+    li {
+        @extend %inline-flex-row-between; 
+        padding-right: 38px;
+        
+    }
+}
+
+.navigation__list {
+    padding: 0;
+}

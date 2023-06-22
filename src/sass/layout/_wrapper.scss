@@ -1,6 +1,7 @@
 .wrapper {
   max-width: $content-width;
   margin: 0 auto;
+  background-color: black;
 }
 
 // @media (max-width: $tablet-width) {
@@ -14,6 +15,5 @@
   .wrapper {
     max-width: $mobile-width;
     margin: 0 auto;
-    // overflow-x: hidden;
   }
 }

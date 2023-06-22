@@ -1,8 +1,5 @@
 * {
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 }
 
 html {
@@ -72,9 +69,11 @@ p {
   }
 }
 
-li {
+li, a {
   @extend %font-red-hat-text;
   @include font(1.6rem, 2.1rem, Medium);
+  list-style-type: none;
+  text-decoration: none;
   @include media-mobile {
     @include font(1rem, 2rem);
   }

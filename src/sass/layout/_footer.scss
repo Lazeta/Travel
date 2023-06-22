@@ -1,0 +1,15 @@
+.footer {
+    min-width: 100%;
+    min-height: 50px;
+    border: 2px solid red;
+    flex-shrink: 0;
+}
+
+.footer__wrapper {
+    min-width: 100%;
+    min-height: 50px;
+    width: 100%;
+    height: 90px;
+    @extend %inline-flex-row-between;
+    overflow-y: hidden;
+}
