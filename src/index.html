@@ -11,25 +11,239 @@
     <link rel="stylesheet" href="/src/sass/style.css" />
   </head>
   <body>
-    <h1>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. A cupiditate
-      aperiam sed doloribus ea nobis,
-    </h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid
-      facere asperiores delectus, voluptatum perferendis excepturi eius corrupti
-      et nemo consequatur blanditiis a rem debitis similique aut libero incidunt
-      velit. Quis esse labore vero exercitationem repellendus sint ipsam
-      molestiae, quisquam maxime sit consequatur laudantium ratione nobis modi
-      officiis, minima aperiam dolorem reprehenderit quibusdam totam sunt ipsa!
-      Consectetur atque veniam voluptate? Quis blanditiis recusandae, voluptatem
-      aliquid, explicabo magnam dolorem ipsa cumque repellat ducimus, quisquam
-      amet molestias tempora. Impedit nulla veniam beatae saepe ipsa,
-      repudiandae velit aspernatur hic, in soluta magnam quibusdam. Minus
-      explicabo molestias in veniam soluta similique accusantium totam
-      distinctio velit eaque, eos nesciunt consequatur voluptas quibusda
-    </p>
+    <div class="wrapper">
+      <header class="header">
+        <div class="logo">
+          <img
+            src="/src/assets/svg/travel-logo-icons.svg"
+            alt="main svg logo"
+          />
+          <h6 class="logo__title"></h6>
+        </div>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="nav__item"></li>
+            <li class="nav__item"></li>
+            <li class="nav__item"></li>
+            <li class="nav__item"></li>
+          </ul>
+        </nav>
+        <button class="login"></button>
+
+        <div class="burger-menu">
+          <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Plan Your Trip</a></li>
+              <li><a href="#">Destinations</a></li>
+              <li><a href="#">Travel Stories</a></li>
+              <li><a href="#">Account</a></li>
+              <li><a href="#">Social Media</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="preview">
+          <div class="plan-your-trip">
+            <h1 class="plan-your-trip__title">
+              Explore the beauty of the World
+            </h1>
+            <p class="paragraph">
+              Receive personalized recommendations for countries, hotels,
+              activities and more
+            </p>
+            <div class="search">
+              <h5 class="search__title">What would you like to do?</h5>
+              <button class="btn btn__search">
+                <h5 class="btn__title">Start Planning</h5>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="three-steps">
+          <h3 class="three-steps__title">3 STEPS TO THE PERFECT TRIP</h3>
+
+          <div class="selected__bar">
+            <ul>
+              <li class="selected__item">
+                <a href="#"
+                  ><img
+                    src="/src/assets/svg/bicycle-icons.svg"
+                    alt="bicycle svg icon"
+                /></a>
+                <p class="paragraph">Tell us what you want to do</p>
+              </li>
+              <li class="selected__item">
+                <a href="#"
+                  ><img
+                    src="/src/assets/svg/calculator-icons.svg"
+                    alt="calculator svg icon"
+                /></a>
+                <p class="paragraph">Share us preferable dates</p>
+              </li>
+              <li class="selected__item">
+                <a href="#"
+                  ><img
+                    src="/src/assets/svg/plane-icons.svg"
+                    alt="plane svg icon"
+                /></a>
+                <p class="paragraph">We will give you recommendations</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="destinations">
+          <h3 class="destinations__title">POPULAR DESTINATIONS</h3>
+          <article class="carousel">
+            <figure>
+              <img src="/src/assets/img/Rectangle 23.png" alt="" />
+              <figcaption><h4>SPAIN</h4></figcaption>
+            </figure>
+
+            <figure>
+              <img src="/src/assets/img/Rectangle 23.png" alt="" />
+              <figcaption><h4>JAPAN</h4></figcaption>
+            </figure>
+
+            <figure>
+              <img src="/src/assets/img/Rectangle 23.png" alt="" />
+              <figcaption><h4>USA</h4></figcaption>
+            </figure>
+          </article>
+          <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <button id="find-more" class="btn btn__find-more">
+            <img
+              src="/src/assets/svg/bi_arrow-right.svg"
+              alt="arrow svg icon"
+            />
+            <h5 class="btn__title">Find More</h5>
+          </button>
+        </section>
+
+        <section class="stories">
+          <h3 class="stories__title">TRAVEL STORIES</h3>
+          <div class="stories__bar">
+            <div class="story story__one">
+              <img src="" alt="" />
+              <h2 class="story__title">10 Photos of Attractive Thailand</h2>
+              <p class="story__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est
+                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit...
+                <a href="#">Read More</a>
+              </p>
+            </div>
+            <div class="story story__two">
+              <img src="" alt="" />
+              <h2 class="story__title">Canyonlands National Park, Utah</h2>
+              <p class="story__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est
+                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit...
+                <a href="#">Read More</a>
+              </p>
+            </div>
+            <div class="story story__three">
+              <img src="" alt="" />
+              <h2 class="story__title">I left my heart in the Mountains!</h2>
+              <p class="story__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est
+                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit...
+                <a href="#">Read More</a>
+              </p>
+            </div>
+            <div class="story story__four">
+              <img src="" alt="" />
+              <h2 class="story__title">The Longest journey in my life!</h2>
+              <p class="story__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est
+                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit...
+                <a href="#">Read More</a>
+              </p>
+            </div>
+          </div>
+          <button id="see-more" class="btn btn__see-more">
+            <img
+              src="/src/assets/svg/bi_arrow-right.svg"
+              alt="arrow svg icon"
+            />
+            <h5 class="btn__title">Find More</h5>
+          </button>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="copyright">
+          <li>All Rights Reserved © Travel Portal</li>
+        </div>
+        <nav class="social__media">
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="/src/assets/svg/akar-icons_instagram-fill.svg"
+                  alt="instagram svg icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="/src/assets/svg/akar-icons_video.svg"
+                  alt="video svg icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="/src/assets/svg/akar-icons_twitter-fill.svg"
+                  alt="twitter svg icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
 
     <script src="/src/scripts/script.js"></script>
+    <script src="/src/scripts/burger-menu.js"></script>
   </body>
 </html>

@@ -11,19 +11,21 @@ html {
   line-height: 10px;
 }
 body {
+  @include font();
+  @include media-mobile {
     @include font();
-    @include media-mobile {
-      @include font();
-    }
+  }
 }
 h1 {
-    @include font(8rem, 9.6rem, Bold);
-    @include media-mobile {
-      @include font(4rem, 5rem);
-    }
+  @extend %font-aleo;
+  @include font(8rem, 9.6rem, Bold);
+  @include media-mobile {
+    @include font(4rem, 5rem);
+  }
 }
 
 h2 {
+  @extend %font-aleo;
   @include font(3.5rem, 4.2rem);
   @include media-mobile {
     @include font(3rem, 3rem);
@@ -31,13 +33,15 @@ h2 {
 }
 
 h3 {
-    @include font(4rem, 5.3rem, Medium);
-    @include media-mobile {
-      @include font(3rem, 4rem);
-    }
+  @extend %font-red-hat-text;
+  @include font(4rem, 5.3rem, Medium);
+  @include media-mobile {
+    @include font(3rem, 4rem);
+  }
 }
 
 h4 {
+  @extend %font-red-hat-text;
   @include font(3.2rem, 4.2rem, Medium);
   @include media-mobile {
     @include font(2.2rem, 3rem);
@@ -45,29 +49,33 @@ h4 {
 }
 
 h5 {
-    @include font(2.4rem, 3.2rem, Medium);
-    @include media-mobile {
-      @include font(2rem, 2.5rem);
-    }
+  @extend %font-red-hat-text;
+  @include font(2.4rem, 3.2rem, Medium);
+  @include media-mobile {
+    @include font(2rem, 2.5rem);
+  }
 }
 
 h6 {
-    @include font(3.2rem, 3.9rem, Bold);
-    @include media-mobile {
-      @include font(2.5rem, 3rem);
-    }
+  @extend %font-magra;
+  @include font(3.2rem, 3.9rem, Bold);
+  @include media-mobile {
+    @include font(2.5rem, 3rem);
+  }
 }
 
 p {
-    @include font(2rem, 2.4rem);
-    @include media-mobile {
-      @include font(1.6rem, 2rem);
-    }
+  @extend %font-aleo;
+  @include font(2rem, 2.4rem);
+  @include media-mobile {
+    @include font(1.6rem, 2rem);
+  }
 }
 
 li {
-    @include font(1.6rem, 2.1rem, Medium);
-    @include media-mobile {
-      @include font(1rem, 2rem);
-    }
+  @extend %font-red-hat-text;
+  @include font(1.6rem, 2.1rem, Medium);
+  @include media-mobile {
+    @include font(1rem, 2rem);
+  }
 }

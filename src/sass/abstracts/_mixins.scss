@@ -10,7 +10,7 @@
   }
 }
 
-@mixin columns ($width) {
+@mixin columns($width) {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
