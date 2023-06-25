@@ -1,7 +1,7 @@
-@mixin font($size: 1.6rem, $height: 2.6rem, $weight: normal) {
+@mixin font($size: 1.6rem, $height: 2.6rem, $weight: 400) {
   font-size: $size;
   line-height: $height;
-  weight: $weight;
+  font-weight: $weight;
 }
 
 @mixin media-mobile {

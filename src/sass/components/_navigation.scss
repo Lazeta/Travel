@@ -3,7 +3,9 @@
     li {
         @extend %inline-flex-row-between; 
         padding-right: 38px;
-        
+        a {
+            color: $color-primary;
+        }
     }
 }
 

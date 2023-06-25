@@ -1,19 +1,16 @@
 h6 {
   font-family: "Magra", sans-serif;
-  color: #ffffff;
 }
 
 p, h2, h1 {
   font-family: "Aleo", serif;
-  color: #ffffff;
 }
 
 li, a, h5, h4, h3 {
   font-family: "Red Hat Text", sans-serif;
-  color: #ffffff;
 }
 
-.navigation li, .footer__wrapper, .logo {
+.search, .navigation li, .footer__wrapper, .logo {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -42,111 +39,127 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 2.6rem;
-  weight: normal;
+  font-weight: 400;
 }
 @media (max-width: 390px) {
   body {
     font-size: 1.6rem;
     line-height: 2.6rem;
-    weight: normal;
+    font-weight: 400;
   }
 }
 
 h1 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -1px;
+  color: #ffffff;
   font-size: 8rem;
   line-height: 9.6rem;
-  weight: Bold;
+  font-weight: 700;
 }
 @media (max-width: 390px) {
   h1 {
     font-size: 4rem;
     line-height: 5rem;
-    weight: normal;
+    font-weight: 400;
   }
 }
 
 h2 {
+  margin: 0;
+  padding: 0;
   font-size: 3.5rem;
   line-height: 4.2rem;
-  weight: normal;
+  font-weight: 400;
 }
 @media (max-width: 390px) {
   h2 {
     font-size: 3rem;
     line-height: 3rem;
-    weight: normal;
+    font-weight: 400;
   }
 }
 
 h3 {
+  margin: 0;
+  padding: 0;
+  color: #F2785C;
   font-size: 4rem;
   line-height: 5.3rem;
-  weight: Medium;
+  font-weight: Medium;
 }
 @media (max-width: 390px) {
   h3 {
     font-size: 3rem;
     line-height: 4rem;
-    weight: normal;
+    font-weight: 400;
   }
 }
 
 h4 {
+  margin: 0;
+  padding: 0;
   font-size: 3.2rem;
   line-height: 4.2rem;
-  weight: Medium;
+  font-weight: Medium;
 }
 @media (max-width: 390px) {
   h4 {
     font-size: 2.2rem;
     line-height: 3rem;
-    weight: normal;
+    font-weight: 400;
   }
 }
 
 h5 {
+  margin: 0;
+  padding: 0;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  weight: Medium;
+  font-weight: 500;
 }
 @media (max-width: 390px) {
   h5 {
     font-size: 2rem;
     line-height: 2.5rem;
-    weight: normal;
+    font-weight: 400;
   }
 }
 
 h6 {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
   font-size: 3.2rem;
   line-height: 3.9rem;
-  weight: Bold;
+  font-weight: Bold;
 }
 @media (max-width: 390px) {
   h6 {
     font-size: 2.5rem;
     line-height: 3rem;
-    weight: normal;
+    font-weight: 400;
   }
 }
 
 p {
   font-size: 2rem;
   line-height: 2.4rem;
-  weight: normal;
+  font-weight: 400;
 }
 @media (max-width: 390px) {
   p {
     font-size: 1.6rem;
     line-height: 2rem;
-    weight: normal;
+    font-weight: 400;
   }
 }
 
 li, a {
   font-size: 1.6rem;
   line-height: 2.1rem;
-  weight: Medium;
+  font-weight: Medium;
   list-style-type: none;
   text-decoration: none;
 }
@@ -154,8 +167,27 @@ li, a {
   li, a {
     font-size: 1rem;
     line-height: 2rem;
-    weight: normal;
+    font-weight: 400;
   }
+}
+
+button {
+  cursor: pointer;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .login {
@@ -168,13 +200,32 @@ li, a {
   align-items: center;
   border-radius: 10px;
   background: #0d606f;
+  color: #ffffff;
   box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  display: flex;
+  width: 228px;
+  height: 59px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #0d606f;
+  box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+  color: #ffffff;
+}
+
+.btn__title {
+  display: inline-flex;
+  flex-wrap: nowrap;
 }
 
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  background-color: black;
+  background-color: #F8F8F8;
 }
 
 @media (max-width: 390px) {
@@ -188,6 +239,7 @@ li, a {
   background-size: cover;
   background-position: center;
   flex-shrink: 0;
+  height: 765px;
 }
 @media screen and (max-width: 768px) {
   .header {
@@ -248,17 +300,53 @@ li, a {
 .navigation li {
   padding-right: 38px;
 }
+.navigation li a {
+  color: #ffffff;
+}
 
 .navigation__list {
   padding: 0;
 }
 
 .preview {
-  border: 2px solid blue;
+  width: 896px;
+  height: auto;
+  position: relative;
+  left: 120px;
+  top: 32px;
+}
+
+.plan-your-trip {
+  width: 892px;
+  height: 422px;
+}
+.plan-your-trip > p {
+  padding: 12px 0 26px 0;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.search {
+  width: 892px;
+  height: 95px;
+  padding: 0 18px 0 41px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+
+.search__title {
+  letter-spacing: -0.9px;
+  color: #F2785C;
+  font-size: 24px;
+  font-style: italic;
 }
 
 .three-steps {
   border: 2px solid rgb(226, 206, 22);
+}
+.three-steps p {
+  margin: 0;
+  padding: 0;
 }
 
 .destinations {

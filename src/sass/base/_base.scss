@@ -14,14 +14,20 @@ body {
   }
 }
 h1 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -1px;
   @extend %font-aleo;
-  @include font(8rem, 9.6rem, Bold);
+  color: $color-primary;
+  @include font(8rem, 9.6rem, 700);
   @include media-mobile {
     @include font(4rem, 5rem);
   }
 }
 
 h2 {
+  margin: 0;
+  padding: 0;
   @extend %font-aleo;
   @include font(3.5rem, 4.2rem);
   @include media-mobile {
@@ -30,7 +36,10 @@ h2 {
 }
 
 h3 {
+  margin: 0;
+  padding: 0;
   @extend %font-red-hat-text;
+  color: $color-accent;
   @include font(4rem, 5.3rem, Medium);
   @include media-mobile {
     @include font(3rem, 4rem);
@@ -38,6 +47,8 @@ h3 {
 }
 
 h4 {
+  margin: 0;
+  padding: 0;
   @extend %font-red-hat-text;
   @include font(3.2rem, 4.2rem, Medium);
   @include media-mobile {
@@ -46,14 +57,19 @@ h4 {
 }
 
 h5 {
+  margin: 0;
+  padding: 0;
   @extend %font-red-hat-text;
-  @include font(2.4rem, 3.2rem, Medium);
+  @include font(2.4rem, 3.2rem, 500);
   @include media-mobile {
     @include font(2rem, 2.5rem);
   }
 }
 
 h6 {
+  margin: 0;
+  padding: 0;
+  color: $color-primary;
   @extend %font-magra;
   @include font(3.2rem, 3.9rem, Bold);
   @include media-mobile {
@@ -77,4 +93,23 @@ li, a {
   @include media-mobile {
     @include font(1rem, 2rem);
   }
+}
+
+button {
+  cursor: pointer;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption { 
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
