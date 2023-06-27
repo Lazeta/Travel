@@ -17,7 +17,7 @@ li, a, h5, h4, h3 {
   align-items: center;
 }
 
-.search, .navigation li, .footer__wrapper, .logo {
+.search, .navigation li, .logo {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -314,6 +314,31 @@ ul {
   width: 100%;
   max-height: 100px;
   height: 5%;
+  display: flex;
+}
+
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 728.962px;
+  margin-left: 590px;
+}
+
+.social__media {
+  display: flex;
+  align-items: center;
+}
+
+.social__media > ul > li {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.copyright {
+  color: #ffffff;
 }
 
 .navigation {
