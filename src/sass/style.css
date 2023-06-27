@@ -237,7 +237,7 @@ ul {
 }
 
 .btn__see-more {
-  margin: 0 auto 0 auto;
+  margin: 20px auto;
 }
 .btn__see-more img {
   padding-right: 10px;
@@ -303,17 +303,17 @@ ul {
 .footer {
   min-width: 100%;
   min-height: 50px;
-  background: url("/src/assets/img/garrett-parker-DlkF4-dbCOU-unsplash 1.png");
+  background: url("/src/assets/img/img8.png"), lightgray 0px -619.46px/100% 162.428% no-repeat;
   background-size: cover;
   background-position: center;
-  flex-shrink: 0;
-  height: 150vh;
+  height: 141vh;
   margin-top: 173px;
 }
 
 .footer__wrapper {
   width: 100%;
   max-height: 100px;
+  height: 5%;
 }
 
 .navigation {
@@ -409,7 +409,7 @@ ul {
 
 .stories {
   background: rgba(255, 255, 255, 0.7);
-  position: relative;
+  height: 95%;
 }
 .stories h3.stories__title {
   position: absolute;
@@ -418,29 +418,42 @@ ul {
 }
 
 .stories__bar {
-  display: flex;
-  flex-flow: column nowrap;
+  padding: 30px 0 0 0;
 }
 
 .description {
-  display: flex;
+  letter-spacing: 0px;
+}
+.description h2.story__title {
+  width: 760px;
+  letter-spacing: -0.3px;
+}
+.description p.story__text {
+  width: 760px;
+  height: 184px;
+  padding-top: 4px;
+  letter-spacing: -0.1px;
+}
+.description a.read-more {
+  color: #0D606F;
+  font-size: 20px;
+  font-family: Aleo;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .story {
-  display: inline-block;
+  display: flex;
   width: 100%;
   height: auto;
-  margin: 40px 120px;
+  padding: 10px 120px 0px 120px;
+  gap: 39px;
 }
 .story img {
   border-radius: 16px;
-  box-shadow: 0px 4px 4px 0px #0D606F;
-}
-.story h2 {
-  display: block;
-}
-.story p {
-  display: block;
+  box-shadow: 0px 4px 4px 0px #0d606f;
+  margin-bottom: 20px;
 }
 
 .burger-menu {
