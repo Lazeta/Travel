@@ -41,6 +41,7 @@ html {
   font-style: normal;
   font-size: 10px;
   line-height: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -76,6 +77,7 @@ h1 {
 h2 {
   margin: 0;
   padding: 0;
+  color: #0D606F;
   font-size: 3.5rem;
   line-height: 4.2rem;
   font-weight: 400;
@@ -151,6 +153,7 @@ h6 {
 }
 
 p {
+  color: #0D606F;
   font-size: 2rem;
   line-height: 2.4rem;
   font-weight: 400;
@@ -206,7 +209,7 @@ ul {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #0d606f;
+  background: #0D606F;
   color: #ffffff;
   box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -219,7 +222,7 @@ ul {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #0d606f;
+  background: #0D606F;
   box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
   color: #ffffff;
 }
@@ -246,7 +249,9 @@ ul {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  max-width: 1440px;
   background-color: #F8F8F8;
+  overflow: hidden;
 }
 
 @media (max-width: 390px) {
@@ -425,7 +430,7 @@ ul {
 }
 
 .paragraph {
-  color: #0d606f;
+  color: #0D606F;
 }
 
 .destinations {
