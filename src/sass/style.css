@@ -6,7 +6,7 @@ p, h2, h1 {
   font-family: "Aleo", serif;
 }
 
-.login, li, a, h5, h4, h3 {
+.search .btn__search, .login, .copyright span.Data-project, span.btn__and__arrow, li, a, h4, h3 {
   font-family: "Red Hat Text", sans-serif;
 }
 
@@ -96,7 +96,7 @@ h3 {
   color: #F2785C;
   font-size: 4rem;
   line-height: 5.3rem;
-  font-weight: Medium;
+  font-weight: Bold;
 }
 @media (max-width: 390px) {
   h3 {
@@ -111,27 +111,12 @@ h4 {
   padding: 0;
   font-size: 3.2rem;
   line-height: 4.2rem;
-  font-weight: Medium;
+  font-weight: Bold;
 }
 @media (max-width: 390px) {
   h4 {
     font-size: 2.2rem;
     line-height: 3rem;
-    font-weight: 400;
-  }
-}
-
-h5 {
-  margin: 0;
-  padding: 0;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  font-weight: 500;
-}
-@media (max-width: 390px) {
-  h5 {
-    font-size: 2rem;
-    line-height: 2.5rem;
     font-weight: 400;
   }
 }
@@ -169,7 +154,7 @@ p {
 li, a {
   font-size: 1.6rem;
   line-height: 2.1rem;
-  font-weight: Medium;
+  font-weight: Bold;
   list-style-type: none;
   text-decoration: none;
 }
@@ -227,9 +212,19 @@ ul {
   color: #ffffff;
 }
 
-.btn__title {
-  display: inline-flex;
-  flex-wrap: nowrap;
+span.btn__and__arrow {
+  margin: 0;
+  padding: 0;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 500;
+}
+@media (max-width: 390px) {
+  span.btn__and__arrow {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+  }
 }
 
 .btn__find-more {
@@ -277,7 +272,6 @@ ul {
   .header {
     background: url("/src/assets/img/mobile-img/garrett-parker-DlkF4-dbCOU-unsplash2-small.png");
     height: 30.25vh;
-    background-size: none;
   }
 }
 
@@ -345,6 +339,20 @@ ul {
 .copyright {
   color: #ffffff;
 }
+.copyright span.Data-project {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  font-weight: Bold;
+  list-style-type: none;
+  text-decoration: none;
+}
+@media (max-width: 390px) {
+  .copyright span.Data-project {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+  }
+}
 
 .navigation {
   margin-right: -15px;
@@ -363,7 +371,7 @@ ul {
 .login {
   font-size: 1.6rem;
   line-height: 2.1rem;
-  font-weight: Medium;
+  font-weight: Bold;
 }
 
 .preview {
@@ -390,6 +398,22 @@ ul {
   padding: 0 18px 0 41px;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
+}
+.search .btn__search {
+  margin: 0;
+  padding: 0;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 500;
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+@media (max-width: 390px) {
+  .search .btn__search {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+  }
 }
 
 .search__title {

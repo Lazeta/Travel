@@ -42,7 +42,7 @@ h3 {
   padding: 0;
   @extend %font-red-hat-text;
   color: $color-accent;
-  @include font(4rem, 5.3rem, Medium);
+  @include font(4rem, 5.3rem, Bold);
   @include media-mobile {
     @include font(3rem, 4rem);
   }
@@ -52,19 +52,9 @@ h4 {
   margin: 0;
   padding: 0;
   @extend %font-red-hat-text;
-  @include font(3.2rem, 4.2rem, Medium);
+  @include font(3.2rem, 4.2rem, Bold);
   @include media-mobile {
     @include font(2.2rem, 3rem);
-  }
-}
-
-h5 {
-  margin: 0;
-  padding: 0;
-  @extend %font-red-hat-text;
-  @include font(2.4rem, 3.2rem, 500);
-  @include media-mobile {
-    @include font(2rem, 2.5rem);
   }
 }
 
@@ -90,7 +80,7 @@ p {
 
 li, a {
   @extend %font-red-hat-text;
-  @include font(1.6rem, 2.1rem, Medium);
+  @include font(1.6rem, 2.1rem, Bold);
   list-style-type: none;
   text-decoration: none;
   @include media-mobile {

@@ -23,13 +23,18 @@
   border-radius: 10px;
   background: $color-secondary;
   box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16),
-  0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+    0px 0px 3px 0px rgba(13, 96, 111, 0.08);
   color: $color-primary;
 }
 
-.btn__title {
-  display: inline-flex;
-  flex-wrap: nowrap;
+span.btn__and__arrow {
+  margin: 0;
+  padding: 0;
+  @extend %font-red-hat-text;
+  @include font(2.4rem, 3.2rem, 500);
+  @include media-mobile {
+    @include font(2rem, 2.5rem);
+  }
 }
 
 .btn__find-more {

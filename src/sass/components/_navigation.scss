@@ -15,5 +15,5 @@
 
 .login {
     @extend %font-red-hat-text;
-    @include font(1.6rem, 2.1rem, Medium);
+    @include font(1.6rem, 2.1rem, Bold);
 }

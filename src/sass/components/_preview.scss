@@ -24,6 +24,17 @@
   padding: 0 18px 0 41px;
   background: $color-primary-opacity70;
   border-radius: 16px;
+  .btn__search {
+    margin: 0;
+    padding: 0;
+    @extend %font-red-hat-text;
+    @include font(2.4rem, 3.2rem, 500);
+    display: inline-flex;
+    flex-wrap: nowrap;
+    @include media-mobile {
+      @include font(2rem, 2.5rem);
+    }
+  }
 }
 
 .search__title {
@@ -32,3 +43,4 @@
     font-size: 24px;
     font-style: italic;
   }
+

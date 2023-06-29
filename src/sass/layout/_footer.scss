@@ -39,4 +39,14 @@
 
 .copyright {
   color: $color-primary;
+
+  span.Data-project {
+    @extend %font-red-hat-text;
+    @include font(1.6rem, 2.1rem, Bold);
+    list-style-type: none;
+    text-decoration: none;
+    @include media-mobile {
+      @include font(1rem, 2rem);
+    }
+  }
 }
