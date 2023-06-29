@@ -12,3 +12,8 @@
 .navigation__list {
     padding: 0;
 }
+
+.login {
+    @extend %font-red-hat-text;
+    @include font(1.6rem, 2.1rem, Medium);
+}

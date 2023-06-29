@@ -6,7 +6,7 @@ p, h2, h1 {
   font-family: "Aleo", serif;
 }
 
-li, a, h5, h4, h3 {
+.login, li, a, h5, h4, h3 {
   font-family: "Red Hat Text", sans-serif;
 }
 
@@ -358,6 +358,12 @@ ul {
 
 .navigation__list {
   padding: 0;
+}
+
+.login {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  font-weight: Medium;
 }
 
 .preview {
