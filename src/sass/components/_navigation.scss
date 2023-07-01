@@ -1,0 +1,19 @@
+.navigation {
+    margin-right: -15px;
+    li {
+        @extend %inline-flex-row-between; 
+        padding-right: 38px;
+        a {
+            color: $color-primary;
+        }
+    }
+}
+
+.navigation__list {
+    padding: 0;
+}
+
+.login {
+    @extend %font-red-hat-text;
+    @include font(1.6rem, 2.1rem, Bold);
+}
