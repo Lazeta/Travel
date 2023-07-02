@@ -1,1 +1,1 @@
-# https://github.com/Lazeta/Travel/src/index.html
+# https://Lazeta.github.io/Travel/
