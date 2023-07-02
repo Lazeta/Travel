@@ -1,5 +1,5 @@
 .header {
-  background: url("/src/assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png");
+  background: url("src/assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png");
   background-size: cover;
   background-position: center;
   flex-shrink: 0;
@@ -11,7 +11,7 @@
   }
 
   @media screen and (max-width: $mobile-width) {
-    background: url("/src/assets/img/mobile-img/garrett-parker-DlkF4-dbCOU-unsplash2-small.png");
+    background: url("src/assets/img/mobile-img/garrett-parker-DlkF4-dbCOU-unsplash2-small.png");
     height: 30.25vh;
   }
 }
